@@ -7,7 +7,10 @@ public class Base01 {
     private int n4 = 400;
 
     public Base01() {
-        System.out.println("Base()...");
+        System.out.println("Base01()...");
+    }
+    public Base01(String name) {
+        System.out.println("Base01()...");
     }
     public void test100(){
         System.out.println("test100...");
